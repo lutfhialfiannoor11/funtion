@@ -1,0 +1,21 @@
+#include<iostream>
+using namespace std;
+
+int main (int argc, char** argv){
+	
+	float r1,r2,r3;
+	cout<<"Menghitung tahanan total dari rangkaian";
+	cout<<"masukkan r1 = "; cin>>r1;
+	cout<<"masukkan r2 = "; cin>>r2;
+	cout<<"masukkan r3 = "; cin>>r3;
+	
+	float rs;
+	rs=r1+r2+r3;
+	float rp;
+	rp=1/r1+1/r2+1/r3;
+	
+	cout<<"Rangkaian seri = "<<rs<<endl;
+	cout<<"Rangkaian paralel = "<<rp<<endl;
+	
+	return 0;
+}
